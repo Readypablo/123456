@@ -1,0 +1,112 @@
+html{
+	font-family: arial;
+}
+
+
+body{
+
+	background: linear-gradient(90deg,#EECFBA,#C5DDE8);
+	/*угол.сторона.перв цвет.второй цвет
+	background-image
+	background reapit:no-reapit*/
+
+}
+
+
+main{
+	padding-top: 5vw;
+	display: flex;
+	flex-direction: column;
+	
+	height: auto;
+	text-align: center;
+	width: calc(100% / 3);
+	margin-left: auto;
+	margin-right: auto;
+}
+.sillka{
+	text-decoration: none;
+	color: black;
+	transition: 5s;
+}
+
+
+.head-text{
+	
+	font-size: 5vw;
+	
+	text-align: center;
+
+}
+
+.glav{
+
+		background:  #E5E5E5  ;
+		border-radius: 20px;
+		box-shadow:  0px 10vw 10vh rgb(0 0 0 / 40%);
+	display: table-column;
+	justify-content: center;
+}
+.lenta{
+justify-content: center;
+padding-top: calc(5% + 20px);
+}
+#lentphoto{
+	width: 300px;
+	height: 500px;
+	
+}
+#lentphoto:hover{
+	transition: 3s ;
+	transform: scale(1.1);
+}
+
+
+.text-mg{
+	font-size: 1vw;
+	padding: 10px;
+}
+
+
+
+@media screen and (max-width: 900px){
+	#lentphoto{
+		width: 150px;
+	height: 250px;
+}
+	#lentphoto:hover{
+		transition: none;
+		transform: scale(1);
+	}
+	
+}
+@media screen and (max-width:700px){
+	main{
+		width: calc(100% / 2);
+	}
+}
+
+
+@media screen and (min-width: 1500px){
+	main{
+		width: calc(100% / 4.5);
+	}
+}
+
+@media screen and (min-width: 1500px){
+	#lentphoto{
+		width: 600px;
+	height: 1000px;
+	}
+
+}
+@media screen and (max-width: 900px){
+	.text-mg{
+		display: none;
+	}
+
+}
+
+h3{
+	font-size: 2vw;
+}

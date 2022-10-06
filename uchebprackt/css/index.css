@@ -1,0 +1,18 @@
+ html{
+
+ 	--padingdouble:20;
+ }
+
+#fotka{
+	width: calc(100%/7); 	
+
+	transform: rotate(calc(3turn - -90deg));	
+
+		
+}
+.text{
+	font-size: calc(5vw + 20px);    
+	padding: calc(var(--padingdouble) * 2px );
+}
+
+
